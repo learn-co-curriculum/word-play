@@ -12,6 +12,9 @@
 		38F5AB08DC5E4C62B0604C56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDEED00B5954FCEBC2A0575 /* Images.xcassets */; };
 		768A26553F49376CCDCB1984 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9CA5149F0844FA63BB7867 /* libPods-unit_tests.a */; };
 		ADA0389BC5EE4F4B95C03EFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B636A4F9DE4D93800805BC /* main.m */; };
+		D881686219E5F91000B6762C /* FISRSVP.m in Sources */ = {isa = PBXBuildFile; fileRef = D881686119E5F91000B6762C /* FISRSVP.m */; };
+		D881686419E5F95100B6762C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D881686319E5F95100B6762C /* CoreLocation.framework */; };
+		D881686619E6BA4500B6762C /* FISRSVPSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D881686519E6BA4500B6762C /* FISRSVPSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 		A29BC21C6B204DBCD38ED206 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		AAFC4B4E1D7B46F0A1777184 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		CC7B183575A2493FAF1CF410 /* word-play-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "word-play-Prefix.pch"; sourceTree = "<group>"; };
+		D881686019E5F91000B6762C /* FISRSVP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISRSVP.h; sourceTree = "<group>"; };
+		D881686119E5F91000B6762C /* FISRSVP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISRSVP.m; sourceTree = "<group>"; };
+		D881686319E5F95100B6762C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D881686519E6BA4500B6762C /* FISRSVPSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISRSVPSpec.m; sourceTree = "<group>"; };
 		E5738F6A164A4A0892C488A0 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		F799E85520C845379282F835 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		FB91C36E8D304387B6CFC346 /* word-play-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "word-play-Info.plist"; sourceTree = "<group>"; };
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D881686419E5F95100B6762C /* CoreLocation.framework in Frameworks */,
 				24CCC77623734F95A607F10E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +100,7 @@
 		5B2F3747685E42388DCF0EB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D881686319E5F95100B6762C /* CoreLocation.framework */,
 				D57D8C57BA144E21B6D84B70 /* iOS */,
 				1C9CA5149F0844FA63BB7867 /* libPods-unit_tests.a */,
 			);
@@ -121,6 +130,8 @@
 			children = (
 				F799E85520C845379282F835 /* FISAppDelegate.h */,
 				AAFC4B4E1D7B46F0A1777184 /* FISAppDelegate.m */,
+				D881686019E5F91000B6762C /* FISRSVP.h */,
+				D881686119E5F91000B6762C /* FISRSVP.m */,
 				090C109847654BD096887C90 /* Resources */,
 			);
 			path = "word-play";
@@ -160,6 +171,7 @@
 		D90F744D2F474342A18EE605 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D881686519E6BA4500B6762C /* FISRSVPSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -303,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D881686619E6BA4500B6762C /* FISRSVPSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +325,7 @@
 			files = (
 				3204AEB317A1479494564540 /* FISAppDelegate.m in Sources */,
 				ADA0389BC5EE4F4B95C03EFC /* main.m in Sources */,
+				D881686219E5F91000B6762C /* FISRSVP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
