@@ -1,7 +1,4 @@
----
-tags: oop, properties, nsstring
-languages: objc
----
+
 
 # Word Play
 
