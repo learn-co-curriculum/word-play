@@ -23,3 +23,5 @@ Comment out the tests and let's get this working in a different way. Instead of 
 ## Hints
 
   * [Comparing `NSDate` Objects](http://stackoverflow.com/questions/5965044/how-to-compare-two-nsdates-which-is-more-recent)
+
+<a href='https://learn.co/lessons/word-play' data-visibility='hidden'>View this lesson on Learn.co</a>
