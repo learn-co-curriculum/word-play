@@ -24,4 +24,4 @@ Comment out the tests and let's get this working in a different way. Instead of 
 
   * [Comparing `NSDate` Objects](http://stackoverflow.com/questions/5965044/how-to-compare-two-nsdates-which-is-more-recent)
 
-<a href='https://learn.co/lessons/word-play' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/word-play' title='Word Play'>Word Play</a> on Learn.co and start learning to code for free.</p>
